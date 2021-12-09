@@ -1,0 +1,60 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background: no-repeat linear-gradient(172deg, #FFC600 0%, #FFC600 30%, #DDD 30%, #DDD 100%);
+  font-family: 'helvetica neue';
+  font-weight: 200;
+  font-size: 20px;
+  height: 100vh;
+}
+
+.mic {
+  display: block;
+  margin: 10px auto;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .3s;
+}
+.mic:hover {
+  background: #eee;
+}
+.fas {
+  font-size: 20px;
+  transition: .3s;
+}
+.active {
+  color: red;
+}
+.words {
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+  padding: 1rem 2rem 1rem 5rem;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+  background-size: 100% 3rem;
+  position: relative;
+  line-height: 3rem;
+}
+
+p {
+  margin: 0 0 3rem;
+}
+
+.words:before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  border: 1px solid;
+  border-color: transparent #efe4e4;
+}
